@@ -39,11 +39,11 @@
                 
         if ( isSeparated ) return 2500; 
 
-        if ( isRetired ) return 3000;
-
-        return 4000;
+        return ( isRetired ) ? 3000 : 4000;
         
-        //return ( isRetired ) ? 3000 : 4000;
+        // if ( isRetired ) return 3000;
+
+        // return 4000;
 
     }
 
